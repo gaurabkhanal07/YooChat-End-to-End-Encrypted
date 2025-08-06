@@ -1,0 +1,21 @@
+{
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.updateBuildConfiguration": "automatic",
+
+  // Java source and exclude settings
+  "java.project.sourcePaths": [
+    "android/app/src/main/java"
+  ],
+  "java.project.excludePaths": [
+    "**/node_modules"
+  ],
+  "java.errors.incompleteClasspath.severity": "ignore",
+
+  // Optional: makes VS Code faster by hiding node_modules from search/explorer
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/node_modules": true
+  }
+}
